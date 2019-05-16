@@ -4,9 +4,8 @@ This project was generated with Flutter web.
 
 ## [Demo](http://rawgit.com/start-angular/SB-Admin-BS4-Angular-6/master/dist/)
 
-## [SB Admin Material version](https://github.com/start-javascript/sb-admin-material)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+This project was generated with [Flutter Web](https://github.com/flutter/flutter_web).
 
 ### Introduction
 
