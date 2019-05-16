@@ -28,7 +28,7 @@ This project contains most of the common widgets which is used by Flutter.
 
 <img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/heroAnimationGif.gif" width="500" height="300" />
 
-- Api calls using http.
+- Api calls using http (Top 10 trending github repositories) in a tablular view.
 
 <img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/apiData.png" width="500" height="300" />
 
