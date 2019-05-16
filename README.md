@@ -21,11 +21,16 @@ This project contains most of the common widgets which is used by Flutter.
 
 
 - Forms
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/form.png" width="500" height="300" />
 
 - Hero Animations
-
 - Linear Gradient
+
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/heroAnimationGif.gif" width="500" height="300" />
+
 - Api calls using http.
+
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/apiData.png" width="500" height="300" />
 
 ### How to start
 
