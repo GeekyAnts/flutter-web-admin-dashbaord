@@ -14,9 +14,12 @@ This project contains most of the common widgets which is used by Flutter.
 - Row/Column
 - Tables
 - Cards
-- Forms
-- Hero Animations
 - Custom Scroll View
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/dashboard.png" width="300" height="250" />
+- Forms
+
+- Hero Animations
+
 - Linear Gradient
 - Api calls using http.
 
