@@ -33,7 +33,10 @@ In order to start this project:
 
 1. Clone the flutter web repository.  [https://github.com/flutter/flutter_web](https://github.com/flutter/flutter_web)
 2. Add $HOME/.pub-cache/bin as path.
-3. Now activate webdev for that run this command $flutter packages pub global activate webdev
+3. Now activate webdev for that run this command 
+```bash
+$ flutter packages pub global activate webdev
+```
 4. Clone our repository.
 5. Run 
 ```bash 
@@ -43,4 +46,4 @@ $ webdev serve --auto restart
 
 ### Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Flutter Web, check out the [Flutter Web](https://github.com/flutter/flutter_web).
