@@ -1,5 +1,5 @@
 import 'package:flutter_web/material.dart';
-import 'package:website/apiService/github_model.dart';
+import 'package:website/services/github_model.dart';
 
 Widget tableCard(BuildContext context, List<GithubTrendingModel> data) {
   return Card(

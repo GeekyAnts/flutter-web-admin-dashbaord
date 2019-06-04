@@ -1,9 +1,10 @@
 import 'package:flutter_web/material.dart';
-import 'package:website/apiService/github_model.dart';
+import 'package:website/screens/dashboard/dashboard.dart';
+import 'package:website/screens/forms/form.dart';
+import 'package:website/screens/hero/hero_screen.dart';
 
-import 'package:website/dashboard/dashboard.dart';
-import 'package:website/forms/form.dart';
-import 'package:website/hero/hero_screen.dart';
+import 'package:website/services/github_model.dart';
+
 import 'package:website/utils/color_constants.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -231,33 +232,6 @@ class HomeScreenState extends State<HomeScreen>
             ),
           ),
         ),
-        // FlatButton(
-        //   color: tabController.index == 3 ? Colors.grey[100] : Colors.white,
-        //   //color: Colors.grey[100],
-        //   onPressed: () {
-        //     tabController.animateTo(3);
-        //     drawerStatus ? Navigator.pop(context) : print("");
-        //   },
-        //   child: Align(
-        //     alignment: Alignment.centerLeft,
-        //     child: Container(
-        //       padding: EdgeInsets.only(top: 22, bottom: 22, right: 22),
-        //       child: Row(children: [
-        //         Icon(Icons.dashboard),
-        //         SizedBox(
-        //           width: 8,
-        //         ),
-        //         Text(
-        //           "Charts",
-        //           style: TextStyle(
-        //             fontSize: 18,
-        //             fontFamily: 'HelveticaNeue',
-        //           ),
-        //         ),
-        //       ]),
-        //     ),
-        //   ),
-        // ),
       ],
     );
   }

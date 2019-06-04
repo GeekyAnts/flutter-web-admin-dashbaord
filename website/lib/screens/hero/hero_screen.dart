@@ -1,6 +1,7 @@
 import 'package:flutter_web/material.dart';
-import 'package:website/hero/hero_object.dart';
 import 'package:website/utils/raw_data.dart';
+
+import 'hero_object.dart';
 
 class HeroAnimation extends StatelessWidget {
   Widget build(BuildContext context) {

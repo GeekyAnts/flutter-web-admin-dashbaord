@@ -30,7 +30,7 @@
     "family": "GoogleSans",
     "fonts": [
       {
-        "asset": "GoogleSans-Regular.ttf"
+        "asset": "fonts/GoogleSans-Regular.ttf"
       }
     ]
   },
@@ -38,7 +38,7 @@
     "family": "GalleryIcons",
     "fonts": [
       {
-        "asset": "GalleryIcons.ttf"
+        "asset": "fonts/GalleryIcons.ttf"
       }
     ]
   },
@@ -46,7 +46,7 @@
     "family": "AbrilFatface",
     "fonts": [
       {
-        "asset": "AbrilFatface-Regular.ttf"
+        "asset": "fonts/AbrilFatface-Regular.ttf"
       }
     ]
   },
@@ -54,7 +54,7 @@
     "family": "LibreFranklin",
     "fonts": [
       {
-        "asset": "LibreFranklin-Regular.ttf"
+        "asset": "fonts/LibreFranklin-Regular.ttf"
       }
     ]
   },
@@ -62,7 +62,7 @@
     "family": "Merriweather",
     "fonts": [
       {
-        "asset": "Merriweather-Regular.ttf"
+        "asset": "fonts/Merriweather-Regular.ttf"
       }
     ]
   },
@@ -70,7 +70,7 @@
     "family": "Raleway",
     "fonts": [
       {
-        "asset": "Raleway-Regular.ttf"
+        "asset": "fonts/Raleway-Regular.ttf"
       }
     ]
   }

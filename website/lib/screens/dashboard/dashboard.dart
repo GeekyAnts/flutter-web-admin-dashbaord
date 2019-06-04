@@ -1,11 +1,9 @@
 import 'package:flutter_web/material.dart';
-import 'package:website/apiService/github_model.dart';
-
-import 'package:website/components/table_card.dart';
-
-import 'package:website/components/ticket_cards.dart';
+import 'package:website/services/github_model.dart';
 
 import 'package:website/utils/raw_data.dart';
+import 'package:website/widgets/table_card.dart';
+import 'package:website/widgets/ticket_cards.dart';
 
 class Dashboard extends StatelessWidget {
   final List<GithubTrendingModel> data;

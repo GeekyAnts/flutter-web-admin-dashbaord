@@ -1,8 +1,7 @@
 import 'package:flutter_web/material.dart';
-import 'package:website/apiService/api_service.dart';
+import 'package:website/screens/home/home_screen.dart';
+import 'package:website/services/api_service.dart';
 import 'package:website/utils/color_constants.dart';
-
-import '../home_screen.dart';
 
 class Login extends StatefulWidget {
   Login({Key key, this.title}) : super(key: key);
