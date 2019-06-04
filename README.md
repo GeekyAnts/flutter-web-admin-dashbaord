@@ -1,35 +1,46 @@
 # Admin Material for Flutter Web.
 
-This project was generated with Flutter web.
 
-## [Demo](http://rawgit.com/start-angular/SB-Admin-BS4-Angular-6/master/dist/)
+# [Demo](https://flutterwebadmindashboard-ozrgbodeiy.now.sh/#/)
 
 
 This project was generated with [Flutter Web](https://github.com/flutter/flutter_web).
 
 ### Introduction
 
-This project contains most of the common widgets which is used by Flutter.
+This project contains most of the common widgets which are used by Flutter.
 
 - Row/Column
 - Tables
 - Cards
-- Forms
-- Hero Animations
 - Custom Scroll View
+
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/login.png" width="500" height="300" />
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/dashboard.png" width="500" height="300" />
+
+
+- Forms
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/form.png" width="500" height="300" />
+
+- Hero Animations
 - Linear Gradient
-- Api calls using http.
+
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/heroAnimationGif.gif" width="500" height="300" />
+
+- Api calls using http (Top 10 trending github repositories) in a tabular view.
+
+<img src="https://github.com/GeekyAnts/flutter-web-admin-dashbaord/blob/master/images/apiData.png" width="500" height="300" />
 
 ### How to start
 
 
 
-In order to start the project use:
-**Note** that this project requires:
+Prerequisites:
+
 1. Your Flutter version needs to be `1.5.4` and higher
 2. Version 3.0 of the Flutter plugin
 
-In order to start this project:
+In order to run this project:
 
 1. Clone the flutter web repository.  [https://github.com/flutter/flutter_web](https://github.com/flutter/flutter_web)
 2. Add $HOME/.pub-cache/bin as path.
@@ -37,7 +48,7 @@ In order to start this project:
 ```bash
 $ flutter packages pub global activate webdev
 ```
-4. Clone our repository.
+4. Clone this repository.
 5. Run 
 ```bash 
 $ pub get
