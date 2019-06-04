@@ -1,7 +1,6 @@
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;
-
-import 'github_model.dart';
+import 'package:website/models/github_model.dart';
 
 class ApiData {
   static List<GithubTrendingModel> githubTrendingModel;

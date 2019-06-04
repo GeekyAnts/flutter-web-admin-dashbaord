@@ -1,13 +1,32 @@
 import 'package:flutter_web/material.dart';
-import 'package:website/services/github_model.dart';
+import 'package:website/models/github_model.dart';
+import 'package:website/services/api_service.dart';
 
 import 'package:website/utils/raw_data.dart';
 import 'package:website/widgets/table_card.dart';
 import 'package:website/widgets/ticket_cards.dart';
 
-class Dashboard extends StatelessWidget {
-  final List<GithubTrendingModel> data;
-  Dashboard({this.data});
+class Dashboard extends StatefulWidget {
+  @override
+  _DashboardState createState() => _DashboardState();
+}
+
+class _DashboardState extends State<Dashboard> {
+  bool loading = false;
+  @override
+  void initState() {
+    super.initState();
+    getDataFromUi();
+  }
+
+  getDataFromUi() async {
+    loading = false;
+    await ApiData.getData();
+    setState(() {
+      loading = true;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     print(MediaQuery.of(context).size.height);
@@ -36,7 +55,14 @@ class Dashboard extends StatelessWidget {
                   SizedBox(
                     height: 16,
                   ),
-                  tableCard(context, data),
+                  loading
+                      ? tableCard(
+                          context,
+                          ApiData.githubTrendingModel,
+                        )
+                      : Center(
+                          child: CircularProgressIndicator(),
+                        ),
                 ],
               ),
             ),

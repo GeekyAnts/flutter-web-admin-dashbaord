@@ -2,14 +2,9 @@ import 'package:flutter_web/material.dart';
 import 'package:website/screens/dashboard/dashboard.dart';
 import 'package:website/screens/forms/form.dart';
 import 'package:website/screens/hero/hero_screen.dart';
-
-import 'package:website/services/github_model.dart';
-
 import 'package:website/utils/color_constants.dart';
 
 class HomeScreen extends StatefulWidget {
-  final List<GithubTrendingModel> data;
-  HomeScreen({this.data});
   @override
   HomeScreenState createState() => HomeScreenState();
 }
@@ -132,9 +127,7 @@ class HomeScreenState extends State<HomeScreen>
               physics: NeverScrollableScrollPhysics(),
               controller: tabController,
               children: [
-                Dashboard(
-                  data: widget.data,
-                ),
+                Dashboard(),
                 FormMaterial(),
                 HeroAnimation(),
               ],

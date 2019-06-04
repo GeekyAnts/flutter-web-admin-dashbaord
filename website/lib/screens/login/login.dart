@@ -15,11 +15,6 @@ class _LoginState extends State<Login> {
   @override
   void initState() {
     super.initState();
-    getDataFromUi();
-  }
-
-  getDataFromUi() async {
-    await ApiData.getData();
   }
 
   @override
@@ -47,17 +42,10 @@ class _LoginState extends State<Login> {
       width: MediaQuery.of(context).size.width / 2.5,
       child: RaisedButton(
         onPressed: () {
-          if (ApiData.githubTrendingModel.isNotEmpty) {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => HomeScreen(
-                        data: ApiData.githubTrendingModel,
-                      )),
-            );
-          } else {
-            print("no data");
-          }
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => HomeScreen()),
+          );
         },
         padding: EdgeInsets.all(12),
         color: ColorConstants.blue,
